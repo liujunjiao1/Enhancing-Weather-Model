@@ -4,7 +4,7 @@ import pdb
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from data.bufferDataGet import *
+from bufferDataGet import *
 
 class Buffer(nn.Module):
     def __init__(self, folder, buffer):
